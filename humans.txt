@@ -1,0 +1,15 @@
+/* TEAM */                           
+Project Manager: Nuria Durán Pau                           
+Site: heaven__and__dawn@hotmail.com                         
+Twitter: Zetsuka                          
+Location: Spain
+							
+/* THANKS */							
+Saikirisu @Twitter
+                            
+/* SITE */                            
+Last update: 2025/11                         
+Standards: HTML5, CSS3, JS
+Software: VSCode, GitHub
+
+                            

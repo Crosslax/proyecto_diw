@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página de recursos de una web dedicada a personas afectadas con afasia." />
+    <meta name="description" content="Página de recursos de una web dedicada a personas afectadas con afasia." >
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
+    <link rel="author" href="humans.txt" >
     <title>Hablando de afasia</title>
     <script src="script.js"></script>
 </head>
@@ -18,10 +19,14 @@
     </header>
     <div class="contenedor">
         <nav>
-            <p><a href="index.html">Página principal</a></p>
-            <p><a href="afasia.html">¿Qué es la afasia?</a></p>
-            <p><a href="recomendaciones.html">Recomendaciones</a></p>
-            <p class="activo"><a href="recursos.html">Recursos</a></p>
+            <input type="checkbox" id="menu">
+            <label for="menu"> Menú </label>
+            <ul>
+                <li><a href="index.html">Página principal</a></li>
+                <li><a href="afasia.html">¿Qué es la afasia?</a></li>
+                <li><a href="recomendaciones.html">Recomendaciones</a></li>
+                <li class="activo"><a href="recursos.html">Recursos</a></li>
+            </ul>
         </nav>
         <main>
             <h1>Recursos</h1>
