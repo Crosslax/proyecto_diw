@@ -202,3 +202,37 @@ footer>button{
     border-radius: 10px;
 
 }
+
+@media(max-width:600px){
+
+    
+   header {
+      margin: 0;
+      flex-basis: auto;
+    }
+    .contenedor {
+        flex-direction: column;
+        margin: 0 ;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-basis: auto;
+    }
+     label {
+        display: block;
+        width: 100%;
+      
+        margin: 0;
+    }
+    nav > ul {
+        width: 100%;
+       
+        margin: 0;
+    }
+
+    main, footer {
+        margin: 0;
+    }
+  }
