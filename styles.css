@@ -15,6 +15,7 @@ header, main, footer{
     border-radius: 10px;
     padding: 10px;
     padding-left: 30px;
+    padding-right: 30px;
     margin: 20px;
     margin-top: 10px;
 
@@ -30,6 +31,7 @@ header, main, footer{
  header>h1{
     font-size: 32px;
  }
+ 
 
 .contenedor {
     flex-grow: 1;
@@ -87,16 +89,20 @@ input:checked  ~ label{
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
+label:hover, button:hover {
+  filter: brightness(110%);
 
-nav>ul>li {
-  display: block;
-  background: lightgrey;
-  margin: 0;
-  padding: 10px;
-  list-style: none;
 }
 
-nav>ul>li{
+label:active, button:active {
+  filter:opacity(50%)
+
+}
+
+
+
+nav>ul>li{  
+  display: block;
     list-style: none;
     padding: 10px;
     margin:0px;
@@ -105,7 +111,7 @@ nav>ul>li{
     border-color: #10214D;
     text-align: center;
     color: #10214D;
-    background-color: #A3B0DA;
+    background-color: #b9c5ec;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -140,10 +146,27 @@ main{
     color: #10214D;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
+    line-height: 1.5rem;
+    text-align: justify;
 }
 main>h1{
     font-size: 22px;
+
 }
+main>h2{
+    font-size: 20px;}
+
+main>ol {
+  font-weight: bold;
+}
+
+main>ol>li>ul {
+  font-weight: 100;
+}
+main>ol>li {
+  margin-bottom: 1em;
+}
+
 
 main>p>a{
     color: #239474;
