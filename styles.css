@@ -99,8 +99,6 @@ label:active, button:active {
 
 }
 
-
-
 nav>ul>li{  
   display: block;
     list-style: none;
@@ -141,7 +139,7 @@ nav>ul>li:last-child{
 }
 
 main{
-    flex-grow:10;
+    flex-grow:1;
     background-color: #DFE7FE;
     color: #10214D;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -156,16 +154,20 @@ main>h1{
 main>h2{
     font-size: 20px;}
 
-main>ol {
+main>ol, main>ul {
   font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main>ol>li>ul {
+main>ol>li>ul, main>ul>li>ul {
   font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-main>ol>li {
+main>ol>li, main>ul>li {
   margin-bottom: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 
 main>p>a{
@@ -201,6 +203,37 @@ footer>button{
     font-size: 14px;
     border-radius: 10px;
 
+}
+
+table{
+  margin: auto;
+  margin-bottom: 3.5em;
+
+}
+
+table, th, td{
+  border-collapse: collapse;
+  border: 3px, solid;
+  background-color: white;
+}
+th, td{
+  padding: 5px 10px;
+}
+
+th{
+  background-color: #b9c5ec;
+}
+
+td.si{
+  background-color: rgb(140, 225, 140);
+}
+
+td.no{
+  background-color: rgb(255, 81, 81);
+}
+
+caption{
+  font-weight: bold;
 }
 
 @media(max-width:600px){
