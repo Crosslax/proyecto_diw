@@ -151,8 +151,6 @@ main>h1{
     font-size: 22px;
 
 }
-main>h2{
-    font-size: 20px;}
 
 main>ol, main>ul {
   font-weight: bold;
@@ -160,7 +158,7 @@ main>ol, main>ul {
 }
 
 main>ol>li>ul>li, main>ul>li>ul>li {
-  font-weight: 100;
+  font-weight: 400;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 main>ol>li, main>ul>li {
@@ -170,6 +168,11 @@ main>ol>li, main>ul>li {
 
 img{
   display: block;
+  margin:auto;
+}
+
+.ocultar{
+  display: none;
   margin:auto;
 }
 
@@ -216,7 +219,7 @@ table{
 
 table, th, td{
   border-collapse: collapse;
-  border: 3px, solid;
+  border: 3px solid;
   background-color: white;
   border-color: #10214D;
 }
@@ -279,9 +282,15 @@ caption{
     }
 
     table{
+        display:none;
+    }
+
+    .ocultar{
+        display: block;
+        margin:auto;
         max-width: 100%; 
         height: auto;
-    }
+}
   }
 
   

@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: 
+
+Sitemap: https://crosslax.github.io/proyecto_diw/sitemap.xml
