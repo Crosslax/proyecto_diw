@@ -76,7 +76,6 @@ label {
   border: solid #10214D;
   border-radius: 10px;
   width: 300px;
-  font-size: 18px;
   font-weight: bold;
   text-align: center;
   user-select: none;
@@ -177,12 +176,12 @@ img{
 }
 
 main>p>a{
-    color: #239474;
+    color: #1aab21;
     text-decoration: none;
 }
 
 main>p>a:hover {
-  filter: brightness(150%);
+  filter: brightness(120%);
 
 }
 
